@@ -1,9 +1,15 @@
 <head>
-  <title>Swarm Markdown Editor</title>
+    <title>Swarm Markdown Editor</title>
 </head>
 
-<body>
+<body> 
+    {{#if (TemplateVar.get "render")}} 
+        {{> textarea}} 
+    {{/if}} 
+</body> 
+
+<template name="textarea">
     <textarea>### Swarm Markdown Editor
 
-  This is an example of another Dapp on Swarm.</textarea>
-</body>
+This is an example of another Dapp on Swarm.</textarea>
+</template>

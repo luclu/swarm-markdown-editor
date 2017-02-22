@@ -3,6 +3,11 @@ const SimpleMDE = require('simplemde');
 require('simplemde/dist/simplemde.min.css');
 
 Template.body.onRendered(function() {
+    TemplateVar.set('render', true);
+});
+
+Template.textarea.onRendered(function() {
+    TemplateVar.set('render', true);
     var simplemde = new SimpleMDE({
         autofocus: true,
         autosave: {
@@ -14,5 +19,5 @@ Template.body.onRendered(function() {
         spellChecker: false,
         autoDownloadFontAwesome: false,
     });
-    simplemde.toggleFullScreen();
+    simplemde.toggleSideBySide();
 });

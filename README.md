@@ -2,7 +2,7 @@
 
 Simple [simplemde-markdown-editor](https://github.com/NextStepWebs/simplemde-markdown-editor) bundled and hosted on [swarm](http://swarm-guide.readthedocs.io/).
 
-Demo at: http://swarm-gateways.net/bzz:/31c1384c835eb0fc7a9a24d82089f67cff2ef6bcc0012da349fddd9f361ab10b/
+Demo at: http://swarm-gateways.net/bzz:/2e21c2915fd2d0e7f602c88f20b6000d380313fe0c816a848ae8bf52f4b218fd/
 
 **NOTE** local content persistency for now. Content storage on swarm to come.
 
